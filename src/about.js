@@ -9,16 +9,21 @@ function loadAbout() {
 
     content.innerHTML = ""
 
+    const heading = document.createElement("p")
+    heading.className = "page-title"
+    heading.innerHTML = "About Us"
+
     const info = document.createElement("div")
     info.className = "rest-info"
     // info.innerHTML = "We are a wonderful restaurant that has opened in the last few years serving asian food!"
     const textInfo = document.createElement("p")
     textInfo.className = "text-info"
-    textInfo.innerHTML = "We are a wonderful restaurant that has come up in the last few years serving asian food!"
+    textInfo.innerHTML = "We are a fairly new restaurant that has come up in the last few years serving asian food! We pride ourselves on our comforting meals and cozy ambience"
 
     info.appendChild(textInfo)
 
     const images = document.createElement("div")
+    images.className = "rest-images"
 
     const curry = document.createElement("img")
     curry.className = "img-info"
@@ -45,8 +50,11 @@ function loadAbout() {
     images.appendChild(soup)
     images.appendChild(wall)
 
+    info.appendChild(images)
+
+    content.appendChild(heading)
+
     content.appendChild(info)
-    content.appendChild(images)
 }
 
 export default loadAbout

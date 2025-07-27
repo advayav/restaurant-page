@@ -1,0 +1,17 @@
+.food-img{
+    height: 200px;
+}
+
+.rest-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menu-item{
+    display: grid;
+    grid-template-columns: 350px 200px 200px;
+    padding: 20px;
+    justify-content: center;
+    box-sizing: border-box;
+}

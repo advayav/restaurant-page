@@ -5,6 +5,10 @@ function loadContact() {
 
     content.innerHTML = ""
 
+    const heading = document.createElement("p")
+    heading.className = "page-title"
+    heading.innerHTML = "Contact Us"
+
     const contact = document.createElement("div")
     contact.className = "rest-contact"
     // contact.innerHTML = "Contact Info here"
@@ -30,6 +34,7 @@ function loadContact() {
     contact.appendChild(phone)
     contact.appendChild(signoff)
 
+    content.appendChild(heading)
     content.appendChild(contact)
     
 }
