@@ -2,6 +2,7 @@ import dumplingPath from "./img/dumplings.jpg"
 import ramenbowlPath from "./img/ramen-bowl.jpg"
 import springrollPath from "./img/spring-roll.jpg"
 import misosoupPath from "./img/soup.jpg"
+import "./styles/menu.css"
 
 function loadMenu() {
     const content = document.getElementById("content")

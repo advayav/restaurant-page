@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Libertinus+Mono&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body{
+    background-color: rgb(249, 195, 160);
+    font-family: Montserrat;
+}
+
+.page-title{
+    text-align: center;
+    padding: 10px;
+    font-size: xx-large;
+    box-sizing: border-box
+}
+
+.rest-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+    padding-top: 0;
+    height: 650px;
+}
+
+.rest-desc{
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+}

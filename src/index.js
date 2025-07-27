@@ -4,12 +4,13 @@ import imgPath from "./img/restaurant.jpg"
 import loadAbout from "./about"
 import loadMenu from "./menu"
 import loadContact from "./contact"
+import "./styles/home.css"
 
 const content = document.getElementById("content")
 
 function loadHome() {
     content.innerHTML = ""
-    const heading = document.createElement("h1")
+    const heading = document.createElement("p")
     heading.className = "page-title"
     heading.innerHTML = "Welcome to Restaurant"
 

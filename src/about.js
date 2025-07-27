@@ -2,6 +2,7 @@ import curryPath from "./img/curry.jpg"
 import ramenPath from "./img/ramen.jpg"
 import soupPath from "./img/soup.jpg"
 import wallPath from "./img/wall.jpg"
+import "./styles/about.css"
 
 function loadAbout() {
     const content = document.getElementById("content")
